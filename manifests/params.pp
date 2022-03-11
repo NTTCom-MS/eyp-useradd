@@ -25,6 +25,10 @@ class useradd::params {
             {
               $package_name='passwd'
             }
+            /^20.*$/:
+            {
+              $package_name='passwd'
+            }
             default: { fail("Unsupported Ubuntu version! - ${::operatingsystemrelease}")  }
           }
         }
