@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 0.1.8
+
+* Added createmailspool default to meet CaaS
+
 ## 0.1.7
 
 * added **Ubuntu 20** support
